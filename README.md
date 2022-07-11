@@ -7,7 +7,7 @@
 OjectIve-c分类，功能拓展库
 
 ## 如何安装
-- [下载Zip包](https://github.com/zhangzhongyan/FSOCCategories/archive/master.zip) 将FSOCNetworking文件夹内源码copy到项目集成
+- [下载Zip包](https://github.com/zhangzhongyan/FSOCCategories/archive/master.zip) 将FSOCCategories文件夹内源码copy到项目集成
 - 通过Pod进行安装：
 
 ```ruby
