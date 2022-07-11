@@ -1,0 +1,6 @@
+framework module FSOCCategories {
+  umbrella header "FSOCCategories-umbrella.h"
+
+  export *
+  module * { export * }
+}

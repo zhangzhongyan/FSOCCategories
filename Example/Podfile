@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'FSOCCategories_Example' do
+  pod 'FSOCCategories', :path => '../'
+
+  target 'FSOCCategories_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

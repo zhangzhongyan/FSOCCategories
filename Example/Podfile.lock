@@ -1,0 +1,18 @@
+PODS:
+  - FSOCCategories (1.0.0):
+    - "FSOCCategories/UIButton+FSHitEdgeInsets (= 1.0.0)"
+  - "FSOCCategories/UIButton+FSHitEdgeInsets (1.0.0)"
+
+DEPENDENCIES:
+  - FSOCCategories (from `../`)
+
+EXTERNAL SOURCES:
+  FSOCCategories:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FSOCCategories: 81671a4cd36894fafb72010241be1270ebeac00f
+
+PODFILE CHECKSUM: ab0a44acdc02f75d737a9eb7e20a667875d3f7e0
+
+COCOAPODS: 1.10.1
