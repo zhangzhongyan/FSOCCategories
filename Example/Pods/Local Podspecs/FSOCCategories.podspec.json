@@ -24,6 +24,10 @@
     {
       "name": "UIButton+FSHitEdgeInsets",
       "source_files": "FSOCCategories/Classes/UIButton+FSHitEdgeInsets/*{h,m}"
+    },
+    {
+      "name": "UIViewController+FSDocumentPickerViewController",
+      "source_files": "FSOCCategories/Classes/UIViewController+FSDocumentPickerViewController/*{h,m}"
     }
   ]
 }

@@ -7,6 +7,8 @@
 //
 
 #import "FSViewController.h"
+#import <FSOCCategories/UIButton+FSHitEdgeInsets.h>
+#import <FSOCCategories/UIViewController+FSDocumentPickerViewController.h>
 
 @interface FSViewController ()
 
@@ -18,6 +20,24 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+//    [self performSelector:@selector(test) withObject:nil afterDelay:5];
+//
+//    self.documentPickerDidSelectedBlock = ^(NSString * _Nullable filePath, NSError * _Nullable error) {
+//        NSLog(@"selected:%@", filePath);
+//    };
+//
+//    self.documentPickerDidCancelBlock = ^{
+//        NSLog(@"cancel");
+//    };
+}
+
+- (void)test
+{
+//    [self presentViewController:self.documentPickerVC animated:YES completion:^{
+//
+//    }];
 }
 
 - (void)didReceiveMemoryWarning
