@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FSOCCategories'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Object-c分类扩展组件'
 
 # This description is used to generate tags and improve search results.
@@ -41,6 +41,11 @@ Pod::Spec.new do |s|
   # UIViewController+FSDocumentPickerViewController仓库
   s.subspec 'UIViewController+FSDocumentPickerViewController' do |ss|
     ss.source_files = 'FSOCCategories/Classes/UIViewController+FSDocumentPickerViewController/*{h,m}'
+  end
+  
+  # UIViewController+FSDocumentInteractionController仓库
+  s.subspec 'UIViewController+FSDocumentInteractionController' do |ss|
+    ss.source_files = 'FSOCCategories/Classes/UIViewController+FSDocumentInteractionController/*{h,m}'
   end
   
 end

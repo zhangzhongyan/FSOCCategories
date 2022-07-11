@@ -9,6 +9,7 @@
 #import "FSViewController.h"
 #import <FSOCCategories/UIButton+FSHitEdgeInsets.h>
 #import <FSOCCategories/UIViewController+FSDocumentPickerViewController.h>
+#import <FSOCCategories/UIViewController+FSDocumentInteractionController.h>
 
 @interface FSViewController ()
 
