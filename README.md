@@ -26,3 +26,10 @@ pod 'FSOCCategories/UIButton+FSHitEdgeInsets'
   - /// 传入**负值**可以扩大点击区域
   - `@property (nonatomic, assign) UIEdgeInsets hitEdgeInsets;:` 
 
+* `UIViewController+FSDocumentPickerViewController`
+  - /// 系统文件选择控制器
+  - @property (nonatomic, strong, readonly) UIDocumentPickerViewController *documentPickerVC;
+  - /** 选择文件回调 */
+  - @property (nonatomic, strong, nullable) FSDocumentPickerDidSelectedBlock documentPickerDidSelectedBlock;
+  - /// 取消回调
+  - @property (nonatomic, strong, nullable) FSDocumentPickerDidCancelBlock documentPickerDidCancelBlock;
