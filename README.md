@@ -17,6 +17,8 @@ pod 'FSOCCategories'
 ### 自定义安装
 ```ruby
 pod 'FSOCCategories/UIButton+FSHitEdgeInsets'
+pod 'FSOCCategories/UIButton+FSDocumentPickerViewController'
+pod 'FSOCCategories/UIButton+FSDocumentInteractionController'
 ```
 
 
@@ -33,3 +35,7 @@ pod 'FSOCCategories/UIButton+FSHitEdgeInsets'
   - @property (nonatomic, strong, nullable) FSDocumentPickerDidSelectedBlock documentPickerDidSelectedBlock;
   - /// 取消回调
   - @property (nonatomic, strong, nullable) FSDocumentPickerDidCancelBlock documentPickerDidCancelBlock;
+
+* `UIViewController+FSDocumentInteractionController`
+  - /// 弹出系统文件交互弹唱（分享、保存、应用间文件通讯）
+  - (void)presentDocumentInteractionControllerWithURL:(NSURL *)url;

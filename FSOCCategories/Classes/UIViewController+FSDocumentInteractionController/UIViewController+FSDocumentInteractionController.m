@@ -14,12 +14,20 @@
 
 #pragma mark - Public Methods
 
-- (void)showDocumentInteractionControllerWithURL:(NSURL *)url
+- (void)presentDocumentInteractionControllerWithURL:(NSURL *)url
 {
-    if (url.absoluteString.length) {
-        self.document = [UIDocumentInteractionController interactionControllerWithURL:url];
-        self.document.delegate = self;
-        [self.document presentOpenInMenuFromRect:self.view.bounds inView:self.view animated:YES];
+    [self setupDocumentInteractionControllerWithURL:url];
+    [self.documentInteraction presentOpenInMenuFromRect:self.view.bounds inView:self.view animated:YES];
+}
+
+- (nullable UIDocumentInteractionController *)setupDocumentInteractionControllerWithURL:(nullable NSURL *)url
+{
+    if (url) {
+        self.documentInteraction = [UIDocumentInteractionController interactionControllerWithURL:url];
+        self.documentInteraction.delegate = self;
+        return self.documentInteraction;
+    } else {
+        return nil;
     }
 }
 
@@ -39,12 +47,12 @@
 
 #pragma mark - Property
 
-- (void)setDocument:(UIDocumentInteractionController *)document {
-    objc_setAssociatedObject(self, @selector(document), document, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+- (void)setDocumentInteraction:(UIDocumentInteractionController *)documentInteraction {
+    objc_setAssociatedObject(self, @selector(documentInteraction), documentInteraction, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
-- (UIDocumentInteractionController *)document {
-    UIDocumentInteractionController *document = objc_getAssociatedObject(self, @selector(document));
+- (UIDocumentInteractionController *)documentInteraction {
+    UIDocumentInteractionController *document = objc_getAssociatedObject(self, @selector(documentInteraction));
     return document;
 }
 

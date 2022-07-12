@@ -1,9 +1,9 @@
 PODS:
-  - FSOCCategories (1.0.1):
-    - "FSOCCategories/UIButton+FSHitEdgeInsets (= 1.0.1)"
-  - "FSOCCategories/UIButton+FSHitEdgeInsets (1.0.1)"
-  - "FSOCCategories/UIViewController+FSDocumentInteractionController (1.0.1)"
-  - "FSOCCategories/UIViewController+FSDocumentPickerViewController (1.0.1)"
+  - FSOCCategories (1.0.2):
+    - "FSOCCategories/UIButton+FSHitEdgeInsets (= 1.0.2)"
+  - "FSOCCategories/UIButton+FSHitEdgeInsets (1.0.2)"
+  - "FSOCCategories/UIViewController+FSDocumentInteractionController (1.0.2)"
+  - "FSOCCategories/UIViewController+FSDocumentPickerViewController (1.0.2)"
 
 DEPENDENCIES:
   - FSOCCategories (from `../`)
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FSOCCategories: 38fcb3b3b556dbe6f08fd19b075d51b5ff95ff4f
+  FSOCCategories: 96f6e8220869afe1067839b2e39f28fffc25c355
 
 PODFILE CHECKSUM: 3247b149ddc257053267b797288004982faff7fc
 

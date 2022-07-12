@@ -13,11 +13,16 @@ NS_ASSUME_NONNULL_BEGIN
 /// 文件交互 控制器(其他应用打开 + 存储)
 @interface UIViewController (FSDocumentInteractionController) <UIDocumentInteractionControllerDelegate>
 
-/// 系统文件
-@property (nonatomic, strong, nullable) UIDocumentInteractionController *document;
+/// 文件交互控制器
+@property (nonatomic, strong, nullable) UIDocumentInteractionController *documentInteraction;
 
 /// 显示系统文件弹框
-- (void)showDocumentInteractionControllerWithURL:(NSURL *)url;
+/// @param url 文件必须是已经下载好的
+- (void)presentDocumentInteractionControllerWithURL:(NSURL *)url;
+
+/// 获取系统文件弹框
+/// @param url 文件必须是已经下载好的
+- (nullable UIDocumentInteractionController *)setupDocumentInteractionControllerWithURL:(nullable NSURL *)url;
 
 @end
 
