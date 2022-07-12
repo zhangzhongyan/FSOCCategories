@@ -13,6 +13,7 @@
 #import "UIButton+FSHitEdgeInsets.h"
 #import "UIViewController+FSDocumentInteractionController.h"
 #import "UIViewController+FSDocumentPickerViewController.h"
+#import "UIViewController+FSQuickLookPreview.h"
 
 FOUNDATION_EXPORT double FSOCCategoriesVersionNumber;
 FOUNDATION_EXPORT const unsigned char FSOCCategoriesVersionString[];

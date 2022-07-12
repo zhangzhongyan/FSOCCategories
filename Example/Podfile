@@ -6,7 +6,8 @@ target 'FSOCCategories_Example' do
   pod 'FSOCCategories', :path => '../'
   pod 'FSOCCategories/UIViewController+FSDocumentPickerViewController', :path => '../'
   pod 'FSOCCategories/UIViewController+FSDocumentInteractionController', :path => '../'
-
+  pod 'FSOCCategories/UIViewController+FSQuickLookPreview', :path => '../'
+  
   target 'FSOCCategories_Tests' do
     inherit! :search_paths
 

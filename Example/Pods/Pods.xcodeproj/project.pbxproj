@@ -7,76 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		219005655B35648BD72A4CC77F931EB7 /* UIViewController+FSDocumentInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF93881302ABA6C464BFB2DC3BA05E /* UIViewController+FSDocumentInteractionController.m */; };
-		32A398C22047011BAA760FAB04F4CFFF /* UIButton+FSHitEdgeInsets.h in Headers */ = {isa = PBXBuildFile; fileRef = CF27C00CE1B28180461267DC594F1B10 /* UIButton+FSHitEdgeInsets.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		434EE75077552CE3F833B18D731B872A /* UIViewController+FSDocumentPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AEDDE7B447082B93F921DE2116EF6CBE /* UIViewController+FSDocumentPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32D604ED92E250167C77D3A4517DB292 /* UIButton+FSHitEdgeInsets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D3EE14C7585A60383E78AB7D105385 /* UIButton+FSHitEdgeInsets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36807AA23C6F509B535D229FE0F4A05B /* UIButton+FSHitEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = D2098BF827FF3B78BC368E5C6AE0CC1E /* UIButton+FSHitEdgeInsets.m */; };
+		3C29E08C3D045670584D27CAA4045788 /* UIViewController+FSDocumentPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 73363E8BC4C5AB28463056E175B929E6 /* UIViewController+FSDocumentPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5893F7C24B1FAA49FFE3DC54C016CA58 /* Pods-FSOCCategories_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01078640B777FF0F4A2C999F31FEF6B3 /* Pods-FSOCCategories_Tests-dummy.m */; };
-		6A85A56567EE783CB15E6F6D6B5FA31E /* UIButton+FSHitEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 451B645DDE1436931D8725E368A97BA5 /* UIButton+FSHitEdgeInsets.m */; };
+		739059BE481AB0C70130CCB94BC11352 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		74DF1538629968FAA88B769B677DDC51 /* Pods-FSOCCategories_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B4FF0FDA1BD8728CD047C4C6E1EF366 /* Pods-FSOCCategories_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A69D30AF06549A157A443015E7F23704 /* UIViewController+FSDocumentInteractionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 33988F6D957663DB54AEB21AA71DE223 /* UIViewController+FSDocumentInteractionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4DA490513E3B6D9B09E1CF6D0760A22 /* FSOCCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EE563B0EA750580D7B7E497359ABCD /* FSOCCategories-dummy.m */; };
+		9B0D7B33713A863CA393B0C11A6E7156 /* UIViewController+FSDocumentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E849B597C2B06DB3F9938EFF235CD6 /* UIViewController+FSDocumentPickerViewController.m */; };
+		A42AD5AB8114CDAE4FAA2461F59DD0B7 /* FSOCCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F464526D11A147A3B86A1FF2BA92A6 /* FSOCCategories-dummy.m */; };
+		A5B7078C1767735A3151B0D18911BB92 /* UIViewController+FSQuickLookPreview.h in Headers */ = {isa = PBXBuildFile; fileRef = A1A5BBE23417F00B66E6E7311E8EC66A /* UIViewController+FSQuickLookPreview.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CED48FA5451326C296AE7107DC3F9C6E /* Pods-FSOCCategories_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F59EE649D41694D818CDC47ABC4DFBB9 /* Pods-FSOCCategories_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CFC70C19FE8BE72DBE091F759192C344 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		EA4DBBAAF45B6317A0A5F90409361790 /* FSOCCategories-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B375770A61607740080E003DA553A38D /* FSOCCategories-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2C71B873D47BB4ABA1AEDC7B4ADE5B6 /* UIViewController+FSDocumentInteractionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 784B8AF84505A27F022892E0B7F96F55 /* UIViewController+FSDocumentInteractionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D334DA74E6EF5A8BA9F7BEA9DC49D411 /* UIViewController+FSDocumentInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B17D66CD8023CF3B5752BF040D6AB8F /* UIViewController+FSDocumentInteractionController.m */; };
+		E438C0A952EC7475F13EFC860098A28E /* UIViewController+FSQuickLookPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = D27A5E7CA5F2EAFD7CC182C13F700EA1 /* UIViewController+FSQuickLookPreview.m */; };
+		EC9ACAB32CD10764A11C559A40676B70 /* FSOCCategories-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE63E58B5D31C08862BB1BF93B7BBA1E /* FSOCCategories-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F04C2F6A7F5EFC39A0E2158B0AA0DB0A /* Pods-FSOCCategories_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 255BEFE7DD88B2CA3A79D7853CB6A5F1 /* Pods-FSOCCategories_Example-dummy.m */; };
 		F63CC14634D402E633F17C51E3B8307F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FE00A7B61188BB9C37D97935E5538344 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FFCCC0E6CE20B403AE04DD330DD4399A /* UIViewController+FSDocumentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 369EBFFC8F6A70AA12FE1F1D0D8937EB /* UIViewController+FSDocumentPickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9C073B66B4CF7D56896869088D8EC893 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 56B85207A43A4F519B5A5162A2FADC94;
-			remoteInfo = FSOCCategories;
-		};
-		E16A06361C646805E8CA43E38D0744C4 /* PBXContainerItemProxy */ = {
+		402A463943AC5C9D5C07E3BA65D38BEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1D4789B80CDBB48DB7961432C15CAAED;
 			remoteInfo = "Pods-FSOCCategories_Example";
 		};
+		537696F96C3E7240CED522AA73F7CFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56B85207A43A4F519B5A5162A2FADC94;
+			remoteInfo = FSOCCategories;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		003ECF17AEE9E31BF73BC99F4F428D72 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		01078640B777FF0F4A2C999F31FEF6B3 /* Pods-FSOCCategories_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FSOCCategories_Tests-dummy.m"; sourceTree = "<group>"; };
 		0281F4D57937C1DFE79804FE29007310 /* Pods-FSOCCategories_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FSOCCategories_Tests.modulemap"; sourceTree = "<group>"; };
-		1AEF93881302ABA6C464BFB2DC3BA05E /* UIViewController+FSDocumentInteractionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+FSDocumentInteractionController.m"; path = "FSOCCategories/Classes/UIViewController+FSDocumentInteractionController/UIViewController+FSDocumentInteractionController.m"; sourceTree = "<group>"; };
-		1C0204E4DF093F1D81B4F52347E73101 /* FSOCCategories-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSOCCategories-prefix.pch"; sourceTree = "<group>"; };
+		167BBBD7606F759DA093AA4A7F98863C /* FSOCCategories-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FSOCCategories-Info.plist"; sourceTree = "<group>"; };
 		1CEBC1B0FB245D5E44805937A9201684 /* FSOCCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSOCCategories.framework; path = FSOCCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EB8F6500B6E35E3BD3C54FF9D48883F /* FSOCCategories.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FSOCCategories.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24D3EE14C7585A60383E78AB7D105385 /* UIButton+FSHitEdgeInsets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+FSHitEdgeInsets.h"; path = "FSOCCategories/Classes/UIButton+FSHitEdgeInsets/UIButton+FSHitEdgeInsets.h"; sourceTree = "<group>"; };
 		255BEFE7DD88B2CA3A79D7853CB6A5F1 /* Pods-FSOCCategories_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FSOCCategories_Example-dummy.m"; sourceTree = "<group>"; };
-		26642C5F16C86585FB2AFEFD3CAF99A0 /* FSOCCategories.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSOCCategories.debug.xcconfig; sourceTree = "<group>"; };
+		26A97823E31FA395C53A248EA779626C /* FSOCCategories-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSOCCategories-prefix.pch"; sourceTree = "<group>"; };
 		2779EF38B12F296F830B243E5E12389A /* Pods-FSOCCategories_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSOCCategories_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2975FD728B826AD97F3ACAC51254ED12 /* Pods-FSOCCategories_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSOCCategories_Tests-Info.plist"; sourceTree = "<group>"; };
-		2BCFE6DF11DFA63B209F57E52897C01F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		33988F6D957663DB54AEB21AA71DE223 /* UIViewController+FSDocumentInteractionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+FSDocumentInteractionController.h"; path = "FSOCCategories/Classes/UIViewController+FSDocumentInteractionController/UIViewController+FSDocumentInteractionController.h"; sourceTree = "<group>"; };
-		369EBFFC8F6A70AA12FE1F1D0D8937EB /* UIViewController+FSDocumentPickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+FSDocumentPickerViewController.m"; path = "FSOCCategories/Classes/UIViewController+FSDocumentPickerViewController/UIViewController+FSDocumentPickerViewController.m"; sourceTree = "<group>"; };
+		2E586B4C984EF3F577DE75E024745B49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		38AB1D072FD3E7FD2A391D69938367FE /* Pods_FSOCCategories_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FSOCCategories_Tests.framework; path = "Pods-FSOCCategories_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DB923E93D0EE4A3E3EB1B097849D82C /* FSOCCategories-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FSOCCategories-Info.plist"; sourceTree = "<group>"; };
-		451B645DDE1436931D8725E368A97BA5 /* UIButton+FSHitEdgeInsets.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+FSHitEdgeInsets.m"; path = "FSOCCategories/Classes/UIButton+FSHitEdgeInsets/UIButton+FSHitEdgeInsets.m"; sourceTree = "<group>"; };
-		58EE563B0EA750580D7B7E497359ABCD /* FSOCCategories-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSOCCategories-dummy.m"; sourceTree = "<group>"; };
+		4AA75CF25640256455AA5FCA1B2D3CF4 /* FSOCCategories.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSOCCategories.release.xcconfig; sourceTree = "<group>"; };
 		64A1C6CA4FDD26141B1F9FC657B94606 /* Pods_FSOCCategories_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FSOCCategories_Example.framework; path = "Pods-FSOCCategories_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6532380D6089924488A48244673BC65A /* Pods-FSOCCategories_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FSOCCategories_Example.modulemap"; sourceTree = "<group>"; };
 		6AD1E295CA366E8F417751EA49B75B22 /* Pods-FSOCCategories_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FSOCCategories_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6B4FF0FDA1BD8728CD047C4C6E1EF366 /* Pods-FSOCCategories_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FSOCCategories_Tests-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73363E8BC4C5AB28463056E175B929E6 /* UIViewController+FSDocumentPickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+FSDocumentPickerViewController.h"; path = "FSOCCategories/Classes/UIViewController+FSDocumentPickerViewController/UIViewController+FSDocumentPickerViewController.h"; sourceTree = "<group>"; };
+		784B8AF84505A27F022892E0B7F96F55 /* UIViewController+FSDocumentInteractionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+FSDocumentInteractionController.h"; path = "FSOCCategories/Classes/UIViewController+FSDocumentInteractionController/UIViewController+FSDocumentInteractionController.h"; sourceTree = "<group>"; };
+		7B17D66CD8023CF3B5752BF040D6AB8F /* UIViewController+FSDocumentInteractionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+FSDocumentInteractionController.m"; path = "FSOCCategories/Classes/UIViewController+FSDocumentInteractionController/UIViewController+FSDocumentInteractionController.m"; sourceTree = "<group>"; };
 		7F50F59F48039D651A1A285FF6552436 /* Pods-FSOCCategories_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FSOCCategories_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9506FDB96249B8C5C885E688835007E1 /* FSOCCategories.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FSOCCategories.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AEDDE7B447082B93F921DE2116EF6CBE /* UIViewController+FSDocumentPickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+FSDocumentPickerViewController.h"; path = "FSOCCategories/Classes/UIViewController+FSDocumentPickerViewController/UIViewController+FSDocumentPickerViewController.h"; sourceTree = "<group>"; };
-		B375770A61607740080E003DA553A38D /* FSOCCategories-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSOCCategories-umbrella.h"; sourceTree = "<group>"; };
-		BAC05809A609BEC36981AF99E2C389BA /* FSOCCategories.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSOCCategories.release.xcconfig; sourceTree = "<group>"; };
+		A0FA6F6CE399E1763C3C528A02B5D5A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A1A5BBE23417F00B66E6E7311E8EC66A /* UIViewController+FSQuickLookPreview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+FSQuickLookPreview.h"; path = "FSOCCategories/Classes/UIViewController+FSQuickLookPreview/UIViewController+FSQuickLookPreview.h"; sourceTree = "<group>"; };
+		B12E7491D6F66381883C483C0885B0E5 /* FSOCCategories.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSOCCategories.modulemap; sourceTree = "<group>"; };
 		BD169432DC91DA527C0A42076B466692 /* Pods-FSOCCategories_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSOCCategories_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C0E849B597C2B06DB3F9938EFF235CD6 /* UIViewController+FSDocumentPickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+FSDocumentPickerViewController.m"; path = "FSOCCategories/Classes/UIViewController+FSDocumentPickerViewController/UIViewController+FSDocumentPickerViewController.m"; sourceTree = "<group>"; };
 		C2C39A008D519F022022BF2B1ED4421F /* Pods-FSOCCategories_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSOCCategories_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C329DC35BE54EB960C0DF577B8F905DA /* Pods-FSOCCategories_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSOCCategories_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CF27C00CE1B28180461267DC594F1B10 /* UIButton+FSHitEdgeInsets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+FSHitEdgeInsets.h"; path = "FSOCCategories/Classes/UIButton+FSHitEdgeInsets/UIButton+FSHitEdgeInsets.h"; sourceTree = "<group>"; };
+		CB09176A2ADE5FB2D87943037A48F553 /* FSOCCategories.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSOCCategories.debug.xcconfig; sourceTree = "<group>"; };
+		D2098BF827FF3B78BC368E5C6AE0CC1E /* UIButton+FSHitEdgeInsets.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+FSHitEdgeInsets.m"; path = "FSOCCategories/Classes/UIButton+FSHitEdgeInsets/UIButton+FSHitEdgeInsets.m"; sourceTree = "<group>"; };
+		D27A5E7CA5F2EAFD7CC182C13F700EA1 /* UIViewController+FSQuickLookPreview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+FSQuickLookPreview.m"; path = "FSOCCategories/Classes/UIViewController+FSQuickLookPreview/UIViewController+FSQuickLookPreview.m"; sourceTree = "<group>"; };
 		D54F6A3BE987229FAACC1F7F375A2DCC /* Pods-FSOCCategories_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FSOCCategories_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D73413C90D5D2EAE1E96CE0F9F41588E /* Pods-FSOCCategories_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSOCCategories_Example-Info.plist"; sourceTree = "<group>"; };
-		F062F3D34F74337F6D500C2A90642013 /* FSOCCategories.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSOCCategories.modulemap; sourceTree = "<group>"; };
+		EE63E58B5D31C08862BB1BF93B7BBA1E /* FSOCCategories-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSOCCategories-umbrella.h"; sourceTree = "<group>"; };
+		F4F464526D11A147A3B86A1FF2BA92A6 /* FSOCCategories-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSOCCategories-dummy.m"; sourceTree = "<group>"; };
 		F59EE649D41694D818CDC47ABC4DFBB9 /* Pods-FSOCCategories_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FSOCCategories_Example-umbrella.h"; sourceTree = "<group>"; };
 		F8B4C8C9ACCCC2569A117E0544454768 /* Pods-FSOCCategories_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSOCCategories_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB87595C561E78D27A2A6E906CCA5BCD /* Pods-FSOCCategories_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSOCCategories_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -91,11 +95,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF3BA076A114C471323185B49C3DE9C9 /* Frameworks */ = {
+		6A38BC99EF916188EA941418174338E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE00A7B61188BB9C37D97935E5538344 /* Foundation.framework in Frameworks */,
+				739059BE481AB0C70130CCB94BC11352 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +114,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10137B9D18725BAD551E5DEAAEB3D78C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA5996605E1D32D987BEA3CF57F211CC /* FSOCCategories */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		15388EBB3417D5F4DD9D3D67D18991EB /* Pods-FSOCCategories_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,19 +148,41 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		45B7DD500026D79C5E401DAE93EB8790 /* Support Files */ = {
+		33FFCE01B915A82A93A2852492306C37 /* UIViewController+FSDocumentInteractionController */ = {
 			isa = PBXGroup;
 			children = (
-				F062F3D34F74337F6D500C2A90642013 /* FSOCCategories.modulemap */,
-				58EE563B0EA750580D7B7E497359ABCD /* FSOCCategories-dummy.m */,
-				3DB923E93D0EE4A3E3EB1B097849D82C /* FSOCCategories-Info.plist */,
-				1C0204E4DF093F1D81B4F52347E73101 /* FSOCCategories-prefix.pch */,
-				B375770A61607740080E003DA553A38D /* FSOCCategories-umbrella.h */,
-				26642C5F16C86585FB2AFEFD3CAF99A0 /* FSOCCategories.debug.xcconfig */,
-				BAC05809A609BEC36981AF99E2C389BA /* FSOCCategories.release.xcconfig */,
+				784B8AF84505A27F022892E0B7F96F55 /* UIViewController+FSDocumentInteractionController.h */,
+				7B17D66CD8023CF3B5752BF040D6AB8F /* UIViewController+FSDocumentInteractionController.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FSOCCategories";
+			name = "UIViewController+FSDocumentInteractionController";
+			sourceTree = "<group>";
+		};
+		494ABBA283F873151036899D4AECD714 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1EB8F6500B6E35E3BD3C54FF9D48883F /* FSOCCategories.podspec */,
+				A0FA6F6CE399E1763C3C528A02B5D5A4 /* LICENSE */,
+				2E586B4C984EF3F577DE75E024745B49 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4D703E28888D3006C2E02C732A00922E /* UIViewController+FSDocumentPickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				73363E8BC4C5AB28463056E175B929E6 /* UIViewController+FSDocumentPickerViewController.h */,
+				C0E849B597C2B06DB3F9938EFF235CD6 /* UIViewController+FSDocumentPickerViewController.m */,
+			);
+			name = "UIViewController+FSDocumentPickerViewController";
+			sourceTree = "<group>";
+		};
+		54664F4D3188E8A5C5480BDCA8FC07D3 /* UIButton+FSHitEdgeInsets */ = {
+			isa = PBXGroup;
+			children = (
+				24D3EE14C7585A60383E78AB7D105385 /* UIButton+FSHitEdgeInsets.h */,
+				D2098BF827FF3B78BC368E5C6AE0CC1E /* UIButton+FSHitEdgeInsets.m */,
+			);
+			name = "UIButton+FSHitEdgeInsets";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -176,21 +210,28 @@
 			path = "Target Support Files/Pods-FSOCCategories_Example";
 			sourceTree = "<group>";
 		};
-		7F0582C67D340853A3AD74F77B6C82FC /* UIViewController+FSDocumentPickerViewController */ = {
+		671E55120E2B57D6F2B5E39F16367999 /* UIViewController+FSQuickLookPreview */ = {
 			isa = PBXGroup;
 			children = (
-				AEDDE7B447082B93F921DE2116EF6CBE /* UIViewController+FSDocumentPickerViewController.h */,
-				369EBFFC8F6A70AA12FE1F1D0D8937EB /* UIViewController+FSDocumentPickerViewController.m */,
+				A1A5BBE23417F00B66E6E7311E8EC66A /* UIViewController+FSQuickLookPreview.h */,
+				D27A5E7CA5F2EAFD7CC182C13F700EA1 /* UIViewController+FSQuickLookPreview.m */,
 			);
-			name = "UIViewController+FSDocumentPickerViewController";
+			name = "UIViewController+FSQuickLookPreview";
 			sourceTree = "<group>";
 		};
-		956FDB4C10288E72C0076F4358BB6042 /* Development Pods */ = {
+		7F53C9B56E131575EEF110E6ED00DE19 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FDE1986FDF3E7CB16A91D51FE1A82F7F /* FSOCCategories */,
+				B12E7491D6F66381883C483C0885B0E5 /* FSOCCategories.modulemap */,
+				F4F464526D11A147A3B86A1FF2BA92A6 /* FSOCCategories-dummy.m */,
+				167BBBD7606F759DA093AA4A7F98863C /* FSOCCategories-Info.plist */,
+				26A97823E31FA395C53A248EA779626C /* FSOCCategories-prefix.pch */,
+				EE63E58B5D31C08862BB1BF93B7BBA1E /* FSOCCategories-umbrella.h */,
+				CB09176A2ADE5FB2D87943037A48F553 /* FSOCCategories.debug.xcconfig */,
+				4AA75CF25640256455AA5FCA1B2D3CF4 /* FSOCCategories.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FSOCCategories";
 			sourceTree = "<group>";
 		};
 		AA840BFC87591852054B37FC5B381A67 /* Targets Support Files */ = {
@@ -206,7 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				956FDB4C10288E72C0076F4358BB6042 /* Development Pods */,
+				10137B9D18725BAD551E5DEAAEB3D78C /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				33C4D9BC0155F07F6D55D86B33469BBC /* Products */,
 				AA840BFC87591852054B37FC5B381A67 /* Targets Support Files */,
@@ -221,66 +262,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E94D7C23CC0A9FB6C4B29552DD3CDA9E /* UIViewController+FSDocumentInteractionController */ = {
+		FA5996605E1D32D987BEA3CF57F211CC /* FSOCCategories */ = {
 			isa = PBXGroup;
 			children = (
-				33988F6D957663DB54AEB21AA71DE223 /* UIViewController+FSDocumentInteractionController.h */,
-				1AEF93881302ABA6C464BFB2DC3BA05E /* UIViewController+FSDocumentInteractionController.m */,
-			);
-			name = "UIViewController+FSDocumentInteractionController";
-			sourceTree = "<group>";
-		};
-		F072467B5701D413ED54AD7CFCBC77B1 /* UIButton+FSHitEdgeInsets */ = {
-			isa = PBXGroup;
-			children = (
-				CF27C00CE1B28180461267DC594F1B10 /* UIButton+FSHitEdgeInsets.h */,
-				451B645DDE1436931D8725E368A97BA5 /* UIButton+FSHitEdgeInsets.m */,
-			);
-			name = "UIButton+FSHitEdgeInsets";
-			sourceTree = "<group>";
-		};
-		FDE1986FDF3E7CB16A91D51FE1A82F7F /* FSOCCategories */ = {
-			isa = PBXGroup;
-			children = (
-				FE3E77F3998C6246CA2BB43B4088F98A /* Pod */,
-				45B7DD500026D79C5E401DAE93EB8790 /* Support Files */,
-				F072467B5701D413ED54AD7CFCBC77B1 /* UIButton+FSHitEdgeInsets */,
-				E94D7C23CC0A9FB6C4B29552DD3CDA9E /* UIViewController+FSDocumentInteractionController */,
-				7F0582C67D340853A3AD74F77B6C82FC /* UIViewController+FSDocumentPickerViewController */,
+				494ABBA283F873151036899D4AECD714 /* Pod */,
+				7F53C9B56E131575EEF110E6ED00DE19 /* Support Files */,
+				54664F4D3188E8A5C5480BDCA8FC07D3 /* UIButton+FSHitEdgeInsets */,
+				33FFCE01B915A82A93A2852492306C37 /* UIViewController+FSDocumentInteractionController */,
+				4D703E28888D3006C2E02C732A00922E /* UIViewController+FSDocumentPickerViewController */,
+				671E55120E2B57D6F2B5E39F16367999 /* UIViewController+FSQuickLookPreview */,
 			);
 			name = FSOCCategories;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		FE3E77F3998C6246CA2BB43B4088F98A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9506FDB96249B8C5C885E688835007E1 /* FSOCCategories.podspec */,
-				003ECF17AEE9E31BF73BC99F4F428D72 /* LICENSE */,
-				2BCFE6DF11DFA63B209F57E52897C01F /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		118F5241F227C0E586FB8444D8194D32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9ACAB32CD10764A11C559A40676B70 /* FSOCCategories-umbrella.h in Headers */,
+				32D604ED92E250167C77D3A4517DB292 /* UIButton+FSHitEdgeInsets.h in Headers */,
+				D2C71B873D47BB4ABA1AEDC7B4ADE5B6 /* UIViewController+FSDocumentInteractionController.h in Headers */,
+				3C29E08C3D045670584D27CAA4045788 /* UIViewController+FSDocumentPickerViewController.h in Headers */,
+				A5B7078C1767735A3151B0D18911BB92 /* UIViewController+FSQuickLookPreview.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4F2A0D2E9FDBD4AEDA0073C545CD3E63 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				74DF1538629968FAA88B769B677DDC51 /* Pods-FSOCCategories_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8FBB5A54A2CBCB70FB9E9F1DB66C6CA0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA4DBBAAF45B6317A0A5F90409361790 /* FSOCCategories-umbrella.h in Headers */,
-				32A398C22047011BAA760FAB04F4CFFF /* UIButton+FSHitEdgeInsets.h in Headers */,
-				A69D30AF06549A157A443015E7F23704 /* UIViewController+FSDocumentInteractionController.h in Headers */,
-				434EE75077552CE3F833B18D731B872A /* UIViewController+FSDocumentPickerViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +322,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DDCD305EB8CC57D763997ED9E5CFD7B7 /* PBXTargetDependency */,
+				B78611D47B9CC57A46189FA4A910C987 /* PBXTargetDependency */,
 			);
 			name = "Pods-FSOCCategories_Example";
 			productName = "Pods-FSOCCategories_Example";
@@ -316,12 +331,12 @@
 		};
 		56B85207A43A4F519B5A5162A2FADC94 /* FSOCCategories */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92865D8E88ADC1811A5ABE5CF6D961B4 /* Build configuration list for PBXNativeTarget "FSOCCategories" */;
+			buildConfigurationList = 99658102F8761629FB99DDA550545988 /* Build configuration list for PBXNativeTarget "FSOCCategories" */;
 			buildPhases = (
-				8FBB5A54A2CBCB70FB9E9F1DB66C6CA0 /* Headers */,
-				E6F3EE9F50E44010CA5D21FB39F83E1D /* Sources */,
-				CF3BA076A114C471323185B49C3DE9C9 /* Frameworks */,
-				0476A59DCF461E950832ACC86C2875E9 /* Resources */,
+				118F5241F227C0E586FB8444D8194D32 /* Headers */,
+				E79CECB59BCA1C96037BF4CA6F61A558 /* Sources */,
+				6A38BC99EF916188EA941418174338E4 /* Frameworks */,
+				1588E1AC271BA901DE58116E2E0724B0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -344,7 +359,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8EE593A9E39F24F346E518C3B5C31C6C /* PBXTargetDependency */,
+				0DA60404CD11F3068A967C0318214408 /* PBXTargetDependency */,
 			);
 			name = "Pods-FSOCCategories_Tests";
 			productName = "Pods-FSOCCategories_Tests";
@@ -381,14 +396,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0476A59DCF461E950832ACC86C2875E9 /* Resources */ = {
+		04AA35602A4C26F54505008BBE090085 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04AA35602A4C26F54505008BBE090085 /* Resources */ = {
+		1588E1AC271BA901DE58116E2E0724B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -421,31 +436,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6F3EE9F50E44010CA5D21FB39F83E1D /* Sources */ = {
+		E79CECB59BCA1C96037BF4CA6F61A558 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4DA490513E3B6D9B09E1CF6D0760A22 /* FSOCCategories-dummy.m in Sources */,
-				6A85A56567EE783CB15E6F6D6B5FA31E /* UIButton+FSHitEdgeInsets.m in Sources */,
-				219005655B35648BD72A4CC77F931EB7 /* UIViewController+FSDocumentInteractionController.m in Sources */,
-				FFCCC0E6CE20B403AE04DD330DD4399A /* UIViewController+FSDocumentPickerViewController.m in Sources */,
+				A42AD5AB8114CDAE4FAA2461F59DD0B7 /* FSOCCategories-dummy.m in Sources */,
+				36807AA23C6F509B535D229FE0F4A05B /* UIButton+FSHitEdgeInsets.m in Sources */,
+				D334DA74E6EF5A8BA9F7BEA9DC49D411 /* UIViewController+FSDocumentInteractionController.m in Sources */,
+				9B0D7B33713A863CA393B0C11A6E7156 /* UIViewController+FSDocumentPickerViewController.m in Sources */,
+				E438C0A952EC7475F13EFC860098A28E /* UIViewController+FSQuickLookPreview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8EE593A9E39F24F346E518C3B5C31C6C /* PBXTargetDependency */ = {
+		0DA60404CD11F3068A967C0318214408 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FSOCCategories_Example";
 			target = 1D4789B80CDBB48DB7961432C15CAAED /* Pods-FSOCCategories_Example */;
-			targetProxy = E16A06361C646805E8CA43E38D0744C4 /* PBXContainerItemProxy */;
+			targetProxy = 402A463943AC5C9D5C07E3BA65D38BEE /* PBXContainerItemProxy */;
 		};
-		DDCD305EB8CC57D763997ED9E5CFD7B7 /* PBXTargetDependency */ = {
+		B78611D47B9CC57A46189FA4A910C987 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FSOCCategories;
 			target = 56B85207A43A4F519B5A5162A2FADC94 /* FSOCCategories */;
-			targetProxy = 9C073B66B4CF7D56896869088D8EC893 /* PBXContainerItemProxy */;
+			targetProxy = 537696F96C3E7240CED522AA73F7CFDD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -484,9 +500,9 @@
 			};
 			name = Release;
 		};
-		4B75CEB522F073A933E7CF1BC93408B8 /* Release */ = {
+		69CC99722AF3E20836EF81AC79DD7A8F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAC05809A609BEC36981AF99E2C389BA /* FSOCCategories.release.xcconfig */;
+			baseConfigurationReference = CB09176A2ADE5FB2D87943037A48F553 /* FSOCCategories.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -509,11 +525,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -604,6 +619,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B9F14C473B79AE56FE70FAD59B68032B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA75CF25640256455AA5FCA1B2D3CF4 /* FSOCCategories.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSOCCategories/FSOCCategories-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSOCCategories/FSOCCategories-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FSOCCategories/FSOCCategories.modulemap";
+				PRODUCT_MODULE_NAME = FSOCCategories;
+				PRODUCT_NAME = FSOCCategories;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -743,36 +789,6 @@
 			};
 			name = Debug;
 		};
-		ECF0AB62C0ADC4D57E102218B8CC06E9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26642C5F16C86585FB2AFEFD3CAF99A0 /* FSOCCategories.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FSOCCategories/FSOCCategories-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FSOCCategories/FSOCCategories-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FSOCCategories/FSOCCategories.modulemap";
-				PRODUCT_MODULE_NAME = FSOCCategories;
-				PRODUCT_NAME = FSOCCategories;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -785,11 +801,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92865D8E88ADC1811A5ABE5CF6D961B4 /* Build configuration list for PBXNativeTarget "FSOCCategories" */ = {
+		99658102F8761629FB99DDA550545988 /* Build configuration list for PBXNativeTarget "FSOCCategories" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECF0AB62C0ADC4D57E102218B8CC06E9 /* Debug */,
-				4B75CEB522F073A933E7CF1BC93408B8 /* Release */,
+				69CC99722AF3E20836EF81AC79DD7A8F /* Debug */,
+				B9F14C473B79AE56FE70FAD59B68032B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

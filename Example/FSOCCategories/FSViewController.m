@@ -10,6 +10,7 @@
 #import <FSOCCategories/UIButton+FSHitEdgeInsets.h>
 #import <FSOCCategories/UIViewController+FSDocumentPickerViewController.h>
 #import <FSOCCategories/UIViewController+FSDocumentInteractionController.h>
+#import <FSOCCategories/UIViewController+FSQuickLookPreview.h>
 
 @interface FSViewController ()
 

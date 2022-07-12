@@ -48,4 +48,10 @@ Pod::Spec.new do |s|
     ss.source_files = 'FSOCCategories/Classes/UIViewController+FSDocumentInteractionController/*{h,m}'
   end
   
+  # UIViewController+FGQuickLookPreview仓库
+  s.subspec 'UIViewController+FSQuickLookPreview' do |ss|
+    ss.source_files = 'FSOCCategories/Classes/UIViewController+FSQuickLookPreview/*{h,m}'
+  end
+  
+  
 end
