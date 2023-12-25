@@ -11,6 +11,7 @@
 #import <FSOCCategories/UIViewController+FSDocumentPickerViewController.h>
 #import <FSOCCategories/UIViewController+FSDocumentInteractionController.h>
 #import <FSOCCategories/UIViewController+FSQuickLookPreview.h>
+#import <FSOCCategories/NSString+FSSize.h>
 
 @interface FSViewController ()
 
@@ -33,6 +34,10 @@
 //    self.documentPickerDidCancelBlock = ^{
 //        NSLog(@"cancel");
 //    };
+    
+    
+    NSString *test = @"gegege";
+    [test getUISize:[UIFont systemFontOfSize:15] limitWidth:200];
 }
 
 - (void)test

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSString+FSSize.h"
 #import "UIButton+FSHitEdgeInsets.h"
 #import "UIViewController+FSDocumentInteractionController.h"
 #import "UIViewController+FSDocumentPickerViewController.h"

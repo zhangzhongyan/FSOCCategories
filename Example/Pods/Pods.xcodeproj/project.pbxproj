@@ -7,34 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32D604ED92E250167C77D3A4517DB292 /* UIButton+FSHitEdgeInsets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D3EE14C7585A60383E78AB7D105385 /* UIButton+FSHitEdgeInsets.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36807AA23C6F509B535D229FE0F4A05B /* UIButton+FSHitEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = D2098BF827FF3B78BC368E5C6AE0CC1E /* UIButton+FSHitEdgeInsets.m */; };
-		3C29E08C3D045670584D27CAA4045788 /* UIViewController+FSDocumentPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 73363E8BC4C5AB28463056E175B929E6 /* UIViewController+FSDocumentPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5893F7C24B1FAA49FFE3DC54C016CA58 /* Pods-FSOCCategories_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01078640B777FF0F4A2C999F31FEF6B3 /* Pods-FSOCCategories_Tests-dummy.m */; };
-		739059BE481AB0C70130CCB94BC11352 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		74DF1538629968FAA88B769B677DDC51 /* Pods-FSOCCategories_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B4FF0FDA1BD8728CD047C4C6E1EF366 /* Pods-FSOCCategories_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B0D7B33713A863CA393B0C11A6E7156 /* UIViewController+FSDocumentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E849B597C2B06DB3F9938EFF235CD6 /* UIViewController+FSDocumentPickerViewController.m */; };
-		A42AD5AB8114CDAE4FAA2461F59DD0B7 /* FSOCCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F464526D11A147A3B86A1FF2BA92A6 /* FSOCCategories-dummy.m */; };
-		A5B7078C1767735A3151B0D18911BB92 /* UIViewController+FSQuickLookPreview.h in Headers */ = {isa = PBXBuildFile; fileRef = A1A5BBE23417F00B66E6E7311E8EC66A /* UIViewController+FSQuickLookPreview.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CED48FA5451326C296AE7107DC3F9C6E /* Pods-FSOCCategories_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F59EE649D41694D818CDC47ABC4DFBB9 /* Pods-FSOCCategories_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFC70C19FE8BE72DBE091F759192C344 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D2C71B873D47BB4ABA1AEDC7B4ADE5B6 /* UIViewController+FSDocumentInteractionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 784B8AF84505A27F022892E0B7F96F55 /* UIViewController+FSDocumentInteractionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D334DA74E6EF5A8BA9F7BEA9DC49D411 /* UIViewController+FSDocumentInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B17D66CD8023CF3B5752BF040D6AB8F /* UIViewController+FSDocumentInteractionController.m */; };
-		E438C0A952EC7475F13EFC860098A28E /* UIViewController+FSQuickLookPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = D27A5E7CA5F2EAFD7CC182C13F700EA1 /* UIViewController+FSQuickLookPreview.m */; };
-		EC9ACAB32CD10764A11C559A40676B70 /* FSOCCategories-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE63E58B5D31C08862BB1BF93B7BBA1E /* FSOCCategories-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F04C2F6A7F5EFC39A0E2158B0AA0DB0A /* Pods-FSOCCategories_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 255BEFE7DD88B2CA3A79D7853CB6A5F1 /* Pods-FSOCCategories_Example-dummy.m */; };
-		F63CC14634D402E633F17C51E3B8307F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		07C8685CD4999C6141FA8106B566111F /* UIButton+FSHitEdgeInsets.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E8BA320F1AFF7607853B4C3F8F4EBD3 /* UIButton+FSHitEdgeInsets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ADBC7C448F9625A616B8DBDBAE91AC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3BD2E47C0C4A1DF33AD417BE9C3DDE9E /* Pods-FSOCCategories_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F59EE649D41694D818CDC47ABC4DFBB9 /* Pods-FSOCCategories_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52FAA63ABED920547964662391A97628 /* FSOCCategories-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0657F23311239F13A3E52F727916351 /* FSOCCategories-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53FEC79B9C4D1E4D52858E82A8A1D234 /* Pods-FSOCCategories_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B4FF0FDA1BD8728CD047C4C6E1EF366 /* Pods-FSOCCategories_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A495B8E96758073595439BD64708605 /* UIViewController+FSQuickLookPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = C15472E6FFA16571DF8F9E84E0394111 /* UIViewController+FSQuickLookPreview.m */; };
+		803FC16A8616E4C424868F9FA0923A74 /* NSString+FSSize.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D97AACECCD50BF09344428EE678892 /* NSString+FSSize.m */; };
+		8AE2E7E9D27F739CC001550474A587C7 /* Pods-FSOCCategories_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 255BEFE7DD88B2CA3A79D7853CB6A5F1 /* Pods-FSOCCategories_Example-dummy.m */; };
+		9121B8AF2FADF79F82E5218DA0255EDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A25FF9E37DBC8F93305D1D6D01D9D8FE /* NSString+FSSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3B2A0A2575BC6DC0C8D270CC7F3BFD /* NSString+FSSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE5CC8F8FC960CD10B6FC31EB4C442A0 /* UIViewController+FSDocumentPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CD94E6BAA4AAFCD1FC4F785E57C6F3E3 /* UIViewController+FSDocumentPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B155EF83D7F400601D186C4A10337B09 /* UIViewController+FSQuickLookPreview.h in Headers */ = {isa = PBXBuildFile; fileRef = B07FF8A7FAF87161D2CE1CD2C3630F93 /* UIViewController+FSQuickLookPreview.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B682550614524356B184A86E1FAF2896 /* FSOCCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20553C919E75BB6C92D6A8E5B3E7B96F /* FSOCCategories-dummy.m */; };
+		BCEDD3FBA398EBAC413B86E76014A8A8 /* UIButton+FSHitEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C96BE638B44BF7843116D2295701700 /* UIButton+FSHitEdgeInsets.m */; };
+		C10882332D4377359FF64EA22B67F358 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D9DF6129319271C695477CD8ED40A0F1 /* UIViewController+FSDocumentInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 570ABB4B5BE6BA30D86A19B417D59DF9 /* UIViewController+FSDocumentInteractionController.m */; };
+		DC8787B72F3BCE783E9E949099196F5D /* UIViewController+FSDocumentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1743AEC4923E74C4FD532BD32F6BE95 /* UIViewController+FSDocumentPickerViewController.m */; };
+		EF0876699610AAA31630F6B8BDDDF46B /* UIViewController+FSDocumentInteractionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 40E29180411111ECF9CD2932A86EE766 /* UIViewController+FSDocumentInteractionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4B47B7757E3183401174242FA4B5089 /* Pods-FSOCCategories_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01078640B777FF0F4A2C999F31FEF6B3 /* Pods-FSOCCategories_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		402A463943AC5C9D5C07E3BA65D38BEE /* PBXContainerItemProxy */ = {
+		5CB7EEEA09182E5EB629AA59D530261A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1D4789B80CDBB48DB7961432C15CAAED;
 			remoteInfo = "Pods-FSOCCategories_Example";
 		};
-		537696F96C3E7240CED522AA73F7CFDD /* PBXContainerItemProxy */ = {
+		B92201C1DB552A27D39C42260BE4DA45 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -46,80 +48,83 @@
 /* Begin PBXFileReference section */
 		01078640B777FF0F4A2C999F31FEF6B3 /* Pods-FSOCCategories_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FSOCCategories_Tests-dummy.m"; sourceTree = "<group>"; };
 		0281F4D57937C1DFE79804FE29007310 /* Pods-FSOCCategories_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FSOCCategories_Tests.modulemap"; sourceTree = "<group>"; };
-		167BBBD7606F759DA093AA4A7F98863C /* FSOCCategories-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FSOCCategories-Info.plist"; sourceTree = "<group>"; };
-		1CEBC1B0FB245D5E44805937A9201684 /* FSOCCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSOCCategories.framework; path = FSOCCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EB8F6500B6E35E3BD3C54FF9D48883F /* FSOCCategories.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FSOCCategories.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		24D3EE14C7585A60383E78AB7D105385 /* UIButton+FSHitEdgeInsets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+FSHitEdgeInsets.h"; path = "FSOCCategories/Classes/UIButton+FSHitEdgeInsets/UIButton+FSHitEdgeInsets.h"; sourceTree = "<group>"; };
+		1CEBC1B0FB245D5E44805937A9201684 /* FSOCCategories */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSOCCategories; path = FSOCCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20553C919E75BB6C92D6A8E5B3E7B96F /* FSOCCategories-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSOCCategories-dummy.m"; sourceTree = "<group>"; };
 		255BEFE7DD88B2CA3A79D7853CB6A5F1 /* Pods-FSOCCategories_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FSOCCategories_Example-dummy.m"; sourceTree = "<group>"; };
-		26A97823E31FA395C53A248EA779626C /* FSOCCategories-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSOCCategories-prefix.pch"; sourceTree = "<group>"; };
 		2779EF38B12F296F830B243E5E12389A /* Pods-FSOCCategories_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSOCCategories_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2975FD728B826AD97F3ACAC51254ED12 /* Pods-FSOCCategories_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSOCCategories_Tests-Info.plist"; sourceTree = "<group>"; };
-		2E586B4C984EF3F577DE75E024745B49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		38AB1D072FD3E7FD2A391D69938367FE /* Pods_FSOCCategories_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FSOCCategories_Tests.framework; path = "Pods-FSOCCategories_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AA75CF25640256455AA5FCA1B2D3CF4 /* FSOCCategories.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSOCCategories.release.xcconfig; sourceTree = "<group>"; };
-		64A1C6CA4FDD26141B1F9FC657B94606 /* Pods_FSOCCategories_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FSOCCategories_Example.framework; path = "Pods-FSOCCategories_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C96BE638B44BF7843116D2295701700 /* UIButton+FSHitEdgeInsets.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+FSHitEdgeInsets.m"; path = "FSOCCategories/Classes/UIButton+FSHitEdgeInsets/UIButton+FSHitEdgeInsets.m"; sourceTree = "<group>"; };
+		38AB1D072FD3E7FD2A391D69938367FE /* Pods-FSOCCategories_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FSOCCategories_Tests"; path = Pods_FSOCCategories_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8BA320F1AFF7607853B4C3F8F4EBD3 /* UIButton+FSHitEdgeInsets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+FSHitEdgeInsets.h"; path = "FSOCCategories/Classes/UIButton+FSHitEdgeInsets/UIButton+FSHitEdgeInsets.h"; sourceTree = "<group>"; };
+		40E29180411111ECF9CD2932A86EE766 /* UIViewController+FSDocumentInteractionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+FSDocumentInteractionController.h"; path = "FSOCCategories/Classes/UIViewController+FSDocumentInteractionController/UIViewController+FSDocumentInteractionController.h"; sourceTree = "<group>"; };
+		4D5152317FFBC48EFAC268656D2F7A6F /* FSOCCategories.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSOCCategories.debug.xcconfig; sourceTree = "<group>"; };
+		570ABB4B5BE6BA30D86A19B417D59DF9 /* UIViewController+FSDocumentInteractionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+FSDocumentInteractionController.m"; path = "FSOCCategories/Classes/UIViewController+FSDocumentInteractionController/UIViewController+FSDocumentInteractionController.m"; sourceTree = "<group>"; };
+		64A1C6CA4FDD26141B1F9FC657B94606 /* Pods-FSOCCategories_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FSOCCategories_Example"; path = Pods_FSOCCategories_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6532380D6089924488A48244673BC65A /* Pods-FSOCCategories_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FSOCCategories_Example.modulemap"; sourceTree = "<group>"; };
 		6AD1E295CA366E8F417751EA49B75B22 /* Pods-FSOCCategories_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FSOCCategories_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6B4FF0FDA1BD8728CD047C4C6E1EF366 /* Pods-FSOCCategories_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FSOCCategories_Tests-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73363E8BC4C5AB28463056E175B929E6 /* UIViewController+FSDocumentPickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+FSDocumentPickerViewController.h"; path = "FSOCCategories/Classes/UIViewController+FSDocumentPickerViewController/UIViewController+FSDocumentPickerViewController.h"; sourceTree = "<group>"; };
-		784B8AF84505A27F022892E0B7F96F55 /* UIViewController+FSDocumentInteractionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+FSDocumentInteractionController.h"; path = "FSOCCategories/Classes/UIViewController+FSDocumentInteractionController/UIViewController+FSDocumentInteractionController.h"; sourceTree = "<group>"; };
-		7B17D66CD8023CF3B5752BF040D6AB8F /* UIViewController+FSDocumentInteractionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+FSDocumentInteractionController.m"; path = "FSOCCategories/Classes/UIViewController+FSDocumentInteractionController/UIViewController+FSDocumentInteractionController.m"; sourceTree = "<group>"; };
 		7F50F59F48039D651A1A285FF6552436 /* Pods-FSOCCategories_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FSOCCategories_Example-frameworks.sh"; sourceTree = "<group>"; };
+		87E4F2ADF7B7B4A980FDFF63D618C4AA /* FSOCCategories.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSOCCategories.release.xcconfig; sourceTree = "<group>"; };
+		9C3B2A0A2575BC6DC0C8D270CC7F3BFD /* NSString+FSSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+FSSize.h"; path = "FSOCCategories/Classes/NSString+FSSize/NSString+FSSize.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0FA6F6CE399E1763C3C528A02B5D5A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		A1A5BBE23417F00B66E6E7311E8EC66A /* UIViewController+FSQuickLookPreview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+FSQuickLookPreview.h"; path = "FSOCCategories/Classes/UIViewController+FSQuickLookPreview/UIViewController+FSQuickLookPreview.h"; sourceTree = "<group>"; };
-		B12E7491D6F66381883C483C0885B0E5 /* FSOCCategories.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSOCCategories.modulemap; sourceTree = "<group>"; };
+		A0657F23311239F13A3E52F727916351 /* FSOCCategories-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSOCCategories-umbrella.h"; sourceTree = "<group>"; };
+		A4B9A8DDF702F277BE168349FF868B41 /* FSOCCategories.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FSOCCategories.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AAF167A169B2887D4FA0085CD9738B67 /* FSOCCategories-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSOCCategories-prefix.pch"; sourceTree = "<group>"; };
+		B07FF8A7FAF87161D2CE1CD2C3630F93 /* UIViewController+FSQuickLookPreview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+FSQuickLookPreview.h"; path = "FSOCCategories/Classes/UIViewController+FSQuickLookPreview/UIViewController+FSQuickLookPreview.h"; sourceTree = "<group>"; };
+		B12DBEDAFC04D37BF5046865E41AE28E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B8548D93A862E3A3E12B1E5B679A69DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BD169432DC91DA527C0A42076B466692 /* Pods-FSOCCategories_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSOCCategories_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C0E849B597C2B06DB3F9938EFF235CD6 /* UIViewController+FSDocumentPickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+FSDocumentPickerViewController.m"; path = "FSOCCategories/Classes/UIViewController+FSDocumentPickerViewController/UIViewController+FSDocumentPickerViewController.m"; sourceTree = "<group>"; };
+		C15472E6FFA16571DF8F9E84E0394111 /* UIViewController+FSQuickLookPreview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+FSQuickLookPreview.m"; path = "FSOCCategories/Classes/UIViewController+FSQuickLookPreview/UIViewController+FSQuickLookPreview.m"; sourceTree = "<group>"; };
+		C1743AEC4923E74C4FD532BD32F6BE95 /* UIViewController+FSDocumentPickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+FSDocumentPickerViewController.m"; path = "FSOCCategories/Classes/UIViewController+FSDocumentPickerViewController/UIViewController+FSDocumentPickerViewController.m"; sourceTree = "<group>"; };
 		C2C39A008D519F022022BF2B1ED4421F /* Pods-FSOCCategories_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSOCCategories_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C329DC35BE54EB960C0DF577B8F905DA /* Pods-FSOCCategories_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSOCCategories_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CB09176A2ADE5FB2D87943037A48F553 /* FSOCCategories.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSOCCategories.debug.xcconfig; sourceTree = "<group>"; };
-		D2098BF827FF3B78BC368E5C6AE0CC1E /* UIButton+FSHitEdgeInsets.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+FSHitEdgeInsets.m"; path = "FSOCCategories/Classes/UIButton+FSHitEdgeInsets/UIButton+FSHitEdgeInsets.m"; sourceTree = "<group>"; };
-		D27A5E7CA5F2EAFD7CC182C13F700EA1 /* UIViewController+FSQuickLookPreview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+FSQuickLookPreview.m"; path = "FSOCCategories/Classes/UIViewController+FSQuickLookPreview/UIViewController+FSQuickLookPreview.m"; sourceTree = "<group>"; };
+		C73C0704912AD3C0D2BFAA1A27B7D4A2 /* FSOCCategories-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FSOCCategories-Info.plist"; sourceTree = "<group>"; };
+		CD94E6BAA4AAFCD1FC4F785E57C6F3E3 /* UIViewController+FSDocumentPickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+FSDocumentPickerViewController.h"; path = "FSOCCategories/Classes/UIViewController+FSDocumentPickerViewController/UIViewController+FSDocumentPickerViewController.h"; sourceTree = "<group>"; };
+		D0D97AACECCD50BF09344428EE678892 /* NSString+FSSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+FSSize.m"; path = "FSOCCategories/Classes/NSString+FSSize/NSString+FSSize.m"; sourceTree = "<group>"; };
 		D54F6A3BE987229FAACC1F7F375A2DCC /* Pods-FSOCCategories_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FSOCCategories_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D73413C90D5D2EAE1E96CE0F9F41588E /* Pods-FSOCCategories_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSOCCategories_Example-Info.plist"; sourceTree = "<group>"; };
-		EE63E58B5D31C08862BB1BF93B7BBA1E /* FSOCCategories-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSOCCategories-umbrella.h"; sourceTree = "<group>"; };
-		F4F464526D11A147A3B86A1FF2BA92A6 /* FSOCCategories-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSOCCategories-dummy.m"; sourceTree = "<group>"; };
+		EB267218DDFCACE187FBE4811766FEEF /* FSOCCategories.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSOCCategories.modulemap; sourceTree = "<group>"; };
 		F59EE649D41694D818CDC47ABC4DFBB9 /* Pods-FSOCCategories_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FSOCCategories_Example-umbrella.h"; sourceTree = "<group>"; };
 		F8B4C8C9ACCCC2569A117E0544454768 /* Pods-FSOCCategories_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSOCCategories_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB87595C561E78D27A2A6E906CCA5BCD /* Pods-FSOCCategories_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSOCCategories_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5FA72481450C2E9B34E168111DCF7BF5 /* Frameworks */ = {
+		568D9508633FC45D7C2DB9AA842669BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFC70C19FE8BE72DBE091F759192C344 /* Foundation.framework in Frameworks */,
+				9121B8AF2FADF79F82E5218DA0255EDF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A38BC99EF916188EA941418174338E4 /* Frameworks */ = {
+		73E5355F301B8F5E4360EA30E1EABC8F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				739059BE481AB0C70130CCB94BC11352 /* Foundation.framework in Frameworks */,
+				C10882332D4377359FF64EA22B67F358 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC5DED09D492DB249917227F1E9B5CC3 /* Frameworks */ = {
+		D173E868ADA2B0456859BB3285C828DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F63CC14634D402E633F17C51E3B8307F /* Foundation.framework in Frameworks */,
+				2ADBC7C448F9625A616B8DBDBAE91AC4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		10137B9D18725BAD551E5DEAAEB3D78C /* Development Pods */ = {
+		0D088FC497F5B796D56B25E826E2A765 /* UIViewController+FSQuickLookPreview */ = {
 			isa = PBXGroup;
 			children = (
-				FA5996605E1D32D987BEA3CF57F211CC /* FSOCCategories */,
+				B07FF8A7FAF87161D2CE1CD2C3630F93 /* UIViewController+FSQuickLookPreview.h */,
+				C15472E6FFA16571DF8F9E84E0394111 /* UIViewController+FSQuickLookPreview.m */,
 			);
-			name = "Development Pods";
+			name = "UIViewController+FSQuickLookPreview";
 			sourceTree = "<group>";
 		};
 		15388EBB3417D5F4DD9D3D67D18991EB /* Pods-FSOCCategories_Tests */ = {
@@ -138,51 +143,46 @@
 			path = "Target Support Files/Pods-FSOCCategories_Tests";
 			sourceTree = "<group>";
 		};
-		33C4D9BC0155F07F6D55D86B33469BBC /* Products */ = {
+		1DB6C983A9B5E98F6B61BF85600229B4 /* NSString+FSSize */ = {
 			isa = PBXGroup;
 			children = (
-				1CEBC1B0FB245D5E44805937A9201684 /* FSOCCategories.framework */,
-				64A1C6CA4FDD26141B1F9FC657B94606 /* Pods_FSOCCategories_Example.framework */,
-				38AB1D072FD3E7FD2A391D69938367FE /* Pods_FSOCCategories_Tests.framework */,
+				9C3B2A0A2575BC6DC0C8D270CC7F3BFD /* NSString+FSSize.h */,
+				D0D97AACECCD50BF09344428EE678892 /* NSString+FSSize.m */,
 			);
-			name = Products;
+			name = "NSString+FSSize";
 			sourceTree = "<group>";
 		};
-		33FFCE01B915A82A93A2852492306C37 /* UIViewController+FSDocumentInteractionController */ = {
+		2D381F77A997836EF4C436CFF5CD63CC /* UIButton+FSHitEdgeInsets */ = {
 			isa = PBXGroup;
 			children = (
-				784B8AF84505A27F022892E0B7F96F55 /* UIViewController+FSDocumentInteractionController.h */,
-				7B17D66CD8023CF3B5752BF040D6AB8F /* UIViewController+FSDocumentInteractionController.m */,
-			);
-			name = "UIViewController+FSDocumentInteractionController";
-			sourceTree = "<group>";
-		};
-		494ABBA283F873151036899D4AECD714 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1EB8F6500B6E35E3BD3C54FF9D48883F /* FSOCCategories.podspec */,
-				A0FA6F6CE399E1763C3C528A02B5D5A4 /* LICENSE */,
-				2E586B4C984EF3F577DE75E024745B49 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		4D703E28888D3006C2E02C732A00922E /* UIViewController+FSDocumentPickerViewController */ = {
-			isa = PBXGroup;
-			children = (
-				73363E8BC4C5AB28463056E175B929E6 /* UIViewController+FSDocumentPickerViewController.h */,
-				C0E849B597C2B06DB3F9938EFF235CD6 /* UIViewController+FSDocumentPickerViewController.m */,
-			);
-			name = "UIViewController+FSDocumentPickerViewController";
-			sourceTree = "<group>";
-		};
-		54664F4D3188E8A5C5480BDCA8FC07D3 /* UIButton+FSHitEdgeInsets */ = {
-			isa = PBXGroup;
-			children = (
-				24D3EE14C7585A60383E78AB7D105385 /* UIButton+FSHitEdgeInsets.h */,
-				D2098BF827FF3B78BC368E5C6AE0CC1E /* UIButton+FSHitEdgeInsets.m */,
+				3E8BA320F1AFF7607853B4C3F8F4EBD3 /* UIButton+FSHitEdgeInsets.h */,
+				2C96BE638B44BF7843116D2295701700 /* UIButton+FSHitEdgeInsets.m */,
 			);
 			name = "UIButton+FSHitEdgeInsets";
+			sourceTree = "<group>";
+		};
+		3562712A59852E4856FCEDB947F7A102 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB267218DDFCACE187FBE4811766FEEF /* FSOCCategories.modulemap */,
+				20553C919E75BB6C92D6A8E5B3E7B96F /* FSOCCategories-dummy.m */,
+				C73C0704912AD3C0D2BFAA1A27B7D4A2 /* FSOCCategories-Info.plist */,
+				AAF167A169B2887D4FA0085CD9738B67 /* FSOCCategories-prefix.pch */,
+				A0657F23311239F13A3E52F727916351 /* FSOCCategories-umbrella.h */,
+				4D5152317FFBC48EFAC268656D2F7A6F /* FSOCCategories.debug.xcconfig */,
+				87E4F2ADF7B7B4A980FDFF63D618C4AA /* FSOCCategories.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FSOCCategories";
+			sourceTree = "<group>";
+		};
+		3776BFC01FC40A00A95911B7115EBAF2 /* UIViewController+FSDocumentInteractionController */ = {
+			isa = PBXGroup;
+			children = (
+				40E29180411111ECF9CD2932A86EE766 /* UIViewController+FSDocumentInteractionController.h */,
+				570ABB4B5BE6BA30D86A19B417D59DF9 /* UIViewController+FSDocumentInteractionController.m */,
+			);
+			name = "UIViewController+FSDocumentInteractionController";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -191,6 +191,14 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		5BC7EA6BFCE2A09ABE4CBC9C0D40A820 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A03C53C834223C6382F905522F613F8 /* FSOCCategories */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		5EC4BE5F222DD5C6A62EF6A9D429D939 /* Pods-FSOCCategories_Example */ = {
@@ -210,28 +218,38 @@
 			path = "Target Support Files/Pods-FSOCCategories_Example";
 			sourceTree = "<group>";
 		};
-		671E55120E2B57D6F2B5E39F16367999 /* UIViewController+FSQuickLookPreview */ = {
+		6A03C53C834223C6382F905522F613F8 /* FSOCCategories */ = {
 			isa = PBXGroup;
 			children = (
-				A1A5BBE23417F00B66E6E7311E8EC66A /* UIViewController+FSQuickLookPreview.h */,
-				D27A5E7CA5F2EAFD7CC182C13F700EA1 /* UIViewController+FSQuickLookPreview.m */,
+				1DB6C983A9B5E98F6B61BF85600229B4 /* NSString+FSSize */,
+				8E4FFEB22DF0691AE44408B849137097 /* Pod */,
+				3562712A59852E4856FCEDB947F7A102 /* Support Files */,
+				2D381F77A997836EF4C436CFF5CD63CC /* UIButton+FSHitEdgeInsets */,
+				3776BFC01FC40A00A95911B7115EBAF2 /* UIViewController+FSDocumentInteractionController */,
+				8F48F3500B7E01E420A534A532C726FB /* UIViewController+FSDocumentPickerViewController */,
+				0D088FC497F5B796D56B25E826E2A765 /* UIViewController+FSQuickLookPreview */,
 			);
-			name = "UIViewController+FSQuickLookPreview";
+			name = FSOCCategories;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		7F53C9B56E131575EEF110E6ED00DE19 /* Support Files */ = {
+		8E4FFEB22DF0691AE44408B849137097 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B12E7491D6F66381883C483C0885B0E5 /* FSOCCategories.modulemap */,
-				F4F464526D11A147A3B86A1FF2BA92A6 /* FSOCCategories-dummy.m */,
-				167BBBD7606F759DA093AA4A7F98863C /* FSOCCategories-Info.plist */,
-				26A97823E31FA395C53A248EA779626C /* FSOCCategories-prefix.pch */,
-				EE63E58B5D31C08862BB1BF93B7BBA1E /* FSOCCategories-umbrella.h */,
-				CB09176A2ADE5FB2D87943037A48F553 /* FSOCCategories.debug.xcconfig */,
-				4AA75CF25640256455AA5FCA1B2D3CF4 /* FSOCCategories.release.xcconfig */,
+				A4B9A8DDF702F277BE168349FF868B41 /* FSOCCategories.podspec */,
+				B12DBEDAFC04D37BF5046865E41AE28E /* LICENSE */,
+				B8548D93A862E3A3E12B1E5B679A69DE /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FSOCCategories";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8F48F3500B7E01E420A534A532C726FB /* UIViewController+FSDocumentPickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CD94E6BAA4AAFCD1FC4F785E57C6F3E3 /* UIViewController+FSDocumentPickerViewController.h */,
+				C1743AEC4923E74C4FD532BD32F6BE95 /* UIViewController+FSDocumentPickerViewController.m */,
+			);
+			name = "UIViewController+FSDocumentPickerViewController";
 			sourceTree = "<group>";
 		};
 		AA840BFC87591852054B37FC5B381A67 /* Targets Support Files */ = {
@@ -243,13 +261,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		B5F0EE612EDB9B14F9C91286179A5FB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CEBC1B0FB245D5E44805937A9201684 /* FSOCCategories */,
+				64A1C6CA4FDD26141B1F9FC657B94606 /* Pods-FSOCCategories_Example */,
+				38AB1D072FD3E7FD2A391D69938367FE /* Pods-FSOCCategories_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				10137B9D18725BAD551E5DEAAEB3D78C /* Development Pods */,
+				5BC7EA6BFCE2A09ABE4CBC9C0D40A820 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				33C4D9BC0155F07F6D55D86B33469BBC /* Products */,
+				B5F0EE612EDB9B14F9C91286179A5FB0 /* Products */,
 				AA840BFC87591852054B37FC5B381A67 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -262,48 +290,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FA5996605E1D32D987BEA3CF57F211CC /* FSOCCategories */ = {
-			isa = PBXGroup;
-			children = (
-				494ABBA283F873151036899D4AECD714 /* Pod */,
-				7F53C9B56E131575EEF110E6ED00DE19 /* Support Files */,
-				54664F4D3188E8A5C5480BDCA8FC07D3 /* UIButton+FSHitEdgeInsets */,
-				33FFCE01B915A82A93A2852492306C37 /* UIViewController+FSDocumentInteractionController */,
-				4D703E28888D3006C2E02C732A00922E /* UIViewController+FSDocumentPickerViewController */,
-				671E55120E2B57D6F2B5E39F16367999 /* UIViewController+FSQuickLookPreview */,
-			);
-			name = FSOCCategories;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		118F5241F227C0E586FB8444D8194D32 /* Headers */ = {
+		3860C6D5F23361E2FE184CBD5C5FABDD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC9ACAB32CD10764A11C559A40676B70 /* FSOCCategories-umbrella.h in Headers */,
-				32D604ED92E250167C77D3A4517DB292 /* UIButton+FSHitEdgeInsets.h in Headers */,
-				D2C71B873D47BB4ABA1AEDC7B4ADE5B6 /* UIViewController+FSDocumentInteractionController.h in Headers */,
-				3C29E08C3D045670584D27CAA4045788 /* UIViewController+FSDocumentPickerViewController.h in Headers */,
-				A5B7078C1767735A3151B0D18911BB92 /* UIViewController+FSQuickLookPreview.h in Headers */,
+				52FAA63ABED920547964662391A97628 /* FSOCCategories-umbrella.h in Headers */,
+				A25FF9E37DBC8F93305D1D6D01D9D8FE /* NSString+FSSize.h in Headers */,
+				07C8685CD4999C6141FA8106B566111F /* UIButton+FSHitEdgeInsets.h in Headers */,
+				EF0876699610AAA31630F6B8BDDDF46B /* UIViewController+FSDocumentInteractionController.h in Headers */,
+				AE5CC8F8FC960CD10B6FC31EB4C442A0 /* UIViewController+FSDocumentPickerViewController.h in Headers */,
+				B155EF83D7F400601D186C4A10337B09 /* UIViewController+FSQuickLookPreview.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F2A0D2E9FDBD4AEDA0073C545CD3E63 /* Headers */ = {
+		6C24B1F00D7ED18D92FEF5FB227AF87C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74DF1538629968FAA88B769B677DDC51 /* Pods-FSOCCategories_Tests-umbrella.h in Headers */,
+				53FEC79B9C4D1E4D52858E82A8A1D234 /* Pods-FSOCCategories_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD045EAB5C628F6E45EC7464A38D3527 /* Headers */ = {
+		949F9A5142597B39DBF8677BE0980D11 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED48FA5451326C296AE7107DC3F9C6E /* Pods-FSOCCategories_Example-umbrella.h in Headers */,
+				3BD2E47C0C4A1DF33AD417BE9C3DDE9E /* Pods-FSOCCategories_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,31 +327,31 @@
 /* Begin PBXNativeTarget section */
 		1D4789B80CDBB48DB7961432C15CAAED /* Pods-FSOCCategories_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E025E516B9502C44979D5626F9F4B4F6 /* Build configuration list for PBXNativeTarget "Pods-FSOCCategories_Example" */;
+			buildConfigurationList = 9C0DC871418D6D57199C48D71AD77F84 /* Build configuration list for PBXNativeTarget "Pods-FSOCCategories_Example" */;
 			buildPhases = (
-				BD045EAB5C628F6E45EC7464A38D3527 /* Headers */,
-				06E5CDD7DEBAB990C4EB7C3CB355187E /* Sources */,
-				5FA72481450C2E9B34E168111DCF7BF5 /* Frameworks */,
-				D72631FED6E386AB8D714B5CB68D8EDA /* Resources */,
+				949F9A5142597B39DBF8677BE0980D11 /* Headers */,
+				E5671885A07EEB0149F1AE3CE6182470 /* Sources */,
+				568D9508633FC45D7C2DB9AA842669BF /* Frameworks */,
+				A7EA4FAE3840C5F203307F1A2DBEA0B9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B78611D47B9CC57A46189FA4A910C987 /* PBXTargetDependency */,
+				61F351977431CFD096382B8224F5EE42 /* PBXTargetDependency */,
 			);
 			name = "Pods-FSOCCategories_Example";
-			productName = "Pods-FSOCCategories_Example";
-			productReference = 64A1C6CA4FDD26141B1F9FC657B94606 /* Pods_FSOCCategories_Example.framework */;
+			productName = Pods_FSOCCategories_Example;
+			productReference = 64A1C6CA4FDD26141B1F9FC657B94606 /* Pods-FSOCCategories_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		56B85207A43A4F519B5A5162A2FADC94 /* FSOCCategories */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99658102F8761629FB99DDA550545988 /* Build configuration list for PBXNativeTarget "FSOCCategories" */;
+			buildConfigurationList = 0080A55842993306BA1F3869CE378AAA /* Build configuration list for PBXNativeTarget "FSOCCategories" */;
 			buildPhases = (
-				118F5241F227C0E586FB8444D8194D32 /* Headers */,
-				E79CECB59BCA1C96037BF4CA6F61A558 /* Sources */,
-				6A38BC99EF916188EA941418174338E4 /* Frameworks */,
-				1588E1AC271BA901DE58116E2E0724B0 /* Resources */,
+				3860C6D5F23361E2FE184CBD5C5FABDD /* Headers */,
+				AE633D097ECF9EB3DC4752CE2AF151F1 /* Sources */,
+				D173E868ADA2B0456859BB3285C828DF /* Frameworks */,
+				8C18DDA9C430EEF9E2F2C4028F2355B2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -344,26 +359,26 @@
 			);
 			name = FSOCCategories;
 			productName = FSOCCategories;
-			productReference = 1CEBC1B0FB245D5E44805937A9201684 /* FSOCCategories.framework */;
+			productReference = 1CEBC1B0FB245D5E44805937A9201684 /* FSOCCategories */;
 			productType = "com.apple.product-type.framework";
 		};
 		9BF3DAF4F558209492B21B671F9340B8 /* Pods-FSOCCategories_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0D291317171CCA1815A2D9E41CDCEAC /* Build configuration list for PBXNativeTarget "Pods-FSOCCategories_Tests" */;
+			buildConfigurationList = 127899021C8037E594B4D203A94B85E9 /* Build configuration list for PBXNativeTarget "Pods-FSOCCategories_Tests" */;
 			buildPhases = (
-				4F2A0D2E9FDBD4AEDA0073C545CD3E63 /* Headers */,
-				D74D550E0BCC7114FAD74A1FB18F63AC /* Sources */,
-				EC5DED09D492DB249917227F1E9B5CC3 /* Frameworks */,
-				04AA35602A4C26F54505008BBE090085 /* Resources */,
+				6C24B1F00D7ED18D92FEF5FB227AF87C /* Headers */,
+				851CE578506460E166193BA78B9013EB /* Sources */,
+				73E5355F301B8F5E4360EA30E1EABC8F /* Frameworks */,
+				235DB7A908AEF0A148ED5ED5CE269E46 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0DA60404CD11F3068A967C0318214408 /* PBXTargetDependency */,
+				5C55C4A0007E7FE4BD804FDB231EBC48 /* PBXTargetDependency */,
 			);
 			name = "Pods-FSOCCategories_Tests";
-			productName = "Pods-FSOCCategories_Tests";
-			productReference = 38AB1D072FD3E7FD2A391D69938367FE /* Pods_FSOCCategories_Tests.framework */;
+			productName = Pods_FSOCCategories_Tests;
+			productReference = 38AB1D072FD3E7FD2A391D69938367FE /* Pods-FSOCCategories_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -372,19 +387,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 33C4D9BC0155F07F6D55D86B33469BBC /* Products */;
+			productRefGroup = B5F0EE612EDB9B14F9C91286179A5FB0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -396,21 +411,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		04AA35602A4C26F54505008BBE090085 /* Resources */ = {
+		235DB7A908AEF0A148ED5ED5CE269E46 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1588E1AC271BA901DE58116E2E0724B0 /* Resources */ = {
+		8C18DDA9C430EEF9E2F2C4028F2355B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D72631FED6E386AB8D714B5CB68D8EDA /* Resources */ = {
+		A7EA4FAE3840C5F203307F1A2DBEA0B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -420,53 +435,54 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		06E5CDD7DEBAB990C4EB7C3CB355187E /* Sources */ = {
+		851CE578506460E166193BA78B9013EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F04C2F6A7F5EFC39A0E2158B0AA0DB0A /* Pods-FSOCCategories_Example-dummy.m in Sources */,
+				F4B47B7757E3183401174242FA4B5089 /* Pods-FSOCCategories_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D74D550E0BCC7114FAD74A1FB18F63AC /* Sources */ = {
+		AE633D097ECF9EB3DC4752CE2AF151F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5893F7C24B1FAA49FFE3DC54C016CA58 /* Pods-FSOCCategories_Tests-dummy.m in Sources */,
+				B682550614524356B184A86E1FAF2896 /* FSOCCategories-dummy.m in Sources */,
+				803FC16A8616E4C424868F9FA0923A74 /* NSString+FSSize.m in Sources */,
+				BCEDD3FBA398EBAC413B86E76014A8A8 /* UIButton+FSHitEdgeInsets.m in Sources */,
+				D9DF6129319271C695477CD8ED40A0F1 /* UIViewController+FSDocumentInteractionController.m in Sources */,
+				DC8787B72F3BCE783E9E949099196F5D /* UIViewController+FSDocumentPickerViewController.m in Sources */,
+				5A495B8E96758073595439BD64708605 /* UIViewController+FSQuickLookPreview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E79CECB59BCA1C96037BF4CA6F61A558 /* Sources */ = {
+		E5671885A07EEB0149F1AE3CE6182470 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A42AD5AB8114CDAE4FAA2461F59DD0B7 /* FSOCCategories-dummy.m in Sources */,
-				36807AA23C6F509B535D229FE0F4A05B /* UIButton+FSHitEdgeInsets.m in Sources */,
-				D334DA74E6EF5A8BA9F7BEA9DC49D411 /* UIViewController+FSDocumentInteractionController.m in Sources */,
-				9B0D7B33713A863CA393B0C11A6E7156 /* UIViewController+FSDocumentPickerViewController.m in Sources */,
-				E438C0A952EC7475F13EFC860098A28E /* UIViewController+FSQuickLookPreview.m in Sources */,
+				8AE2E7E9D27F739CC001550474A587C7 /* Pods-FSOCCategories_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0DA60404CD11F3068A967C0318214408 /* PBXTargetDependency */ = {
+		5C55C4A0007E7FE4BD804FDB231EBC48 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FSOCCategories_Example";
 			target = 1D4789B80CDBB48DB7961432C15CAAED /* Pods-FSOCCategories_Example */;
-			targetProxy = 402A463943AC5C9D5C07E3BA65D38BEE /* PBXContainerItemProxy */;
+			targetProxy = 5CB7EEEA09182E5EB629AA59D530261A /* PBXContainerItemProxy */;
 		};
-		B78611D47B9CC57A46189FA4A910C987 /* PBXTargetDependency */ = {
+		61F351977431CFD096382B8224F5EE42 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FSOCCategories;
 			target = 56B85207A43A4F519B5A5162A2FADC94 /* FSOCCategories */;
-			targetProxy = 537696F96C3E7240CED522AA73F7CFDD /* PBXContainerItemProxy */;
+			targetProxy = B92201C1DB552A27D39C42260BE4DA45 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2306879D2AB9A0621206E517AE5FB0D4 /* Release */ = {
+		236E337541A3D10D35D9F42B183D86F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD169432DC91DA527C0A42076B466692 /* Pods-FSOCCategories_Example.release.xcconfig */;
 			buildSettings = {
@@ -500,9 +516,109 @@
 			};
 			name = Release;
 		};
-		69CC99722AF3E20836EF81AC79DD7A8F /* Debug */ = {
+		286A95BFEDDC7A94CB05F1BE5248FE5D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB09176A2ADE5FB2D87943037A48F553 /* FSOCCategories.debug.xcconfig */;
+			baseConfigurationReference = F8B4C8C9ACCCC2569A117E0544454768 /* Pods-FSOCCategories_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FSOCCategories_Tests/Pods-FSOCCategories_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FSOCCategories_Tests/Pods-FSOCCategories_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34FB27693C219F18D3BBCA58BCA2A92D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C329DC35BE54EB960C0DF577B8F905DA /* Pods-FSOCCategories_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FSOCCategories_Tests/Pods-FSOCCategories_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FSOCCategories_Tests/Pods-FSOCCategories_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F33F6882290277BDA02CFA28E7EC5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB87595C561E78D27A2A6E906CCA5BCD /* Pods-FSOCCategories_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FSOCCategories_Example/Pods-FSOCCategories_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FSOCCategories_Example/Pods-FSOCCategories_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53AF34CAAC4E429866AEBF7DA9CC6EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D5152317FFBC48EFAC268656D2F7A6F /* FSOCCategories.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -592,43 +708,9 @@
 			};
 			name = Release;
 		};
-		9414BAEF28CE32ABCA723F8F207607BE /* Release */ = {
+		D1020E53D864A22FF1C8584211C69E48 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C329DC35BE54EB960C0DF577B8F905DA /* Pods-FSOCCategories_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FSOCCategories_Tests/Pods-FSOCCategories_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FSOCCategories_Tests/Pods-FSOCCategories_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B9F14C473B79AE56FE70FAD59B68032B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AA75CF25640256455AA5FCA1B2D3CF4 /* FSOCCategories.release.xcconfig */;
+			baseConfigurationReference = 87E4F2ADF7B7B4A980FDFF63D618C4AA /* FSOCCategories.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -656,39 +738,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		BD4964D3B63B43E1480E5AE94FA38F25 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB87595C561E78D27A2A6E906CCA5BCD /* Pods-FSOCCategories_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FSOCCategories_Example/Pods-FSOCCategories_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FSOCCategories_Example/Pods-FSOCCategories_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -756,42 +805,27 @@
 			};
 			name = Debug;
 		};
-		DF7660A986C57E4F41B711B83BCF7CE4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8B4C8C9ACCCC2569A117E0544454768 /* Pods-FSOCCategories_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FSOCCategories_Tests/Pods-FSOCCategories_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FSOCCategories_Tests/Pods-FSOCCategories_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0080A55842993306BA1F3869CE378AAA /* Build configuration list for PBXNativeTarget "FSOCCategories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AF34CAAC4E429866AEBF7DA9CC6EE9 /* Debug */,
+				D1020E53D864A22FF1C8584211C69E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		127899021C8037E594B4D203A94B85E9 /* Build configuration list for PBXNativeTarget "Pods-FSOCCategories_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286A95BFEDDC7A94CB05F1BE5248FE5D /* Debug */,
+				34FB27693C219F18D3BBCA58BCA2A92D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -801,29 +835,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99658102F8761629FB99DDA550545988 /* Build configuration list for PBXNativeTarget "FSOCCategories" */ = {
+		9C0DC871418D6D57199C48D71AD77F84 /* Build configuration list for PBXNativeTarget "Pods-FSOCCategories_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				69CC99722AF3E20836EF81AC79DD7A8F /* Debug */,
-				B9F14C473B79AE56FE70FAD59B68032B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E025E516B9502C44979D5626F9F4B4F6 /* Build configuration list for PBXNativeTarget "Pods-FSOCCategories_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BD4964D3B63B43E1480E5AE94FA38F25 /* Debug */,
-				2306879D2AB9A0621206E517AE5FB0D4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E0D291317171CCA1815A2D9E41CDCEAC /* Build configuration list for PBXNativeTarget "Pods-FSOCCategories_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DF7660A986C57E4F41B711B83BCF7CE4 /* Debug */,
-				9414BAEF28CE32ABCA723F8F207607BE /* Release */,
+				4F33F6882290277BDA02CFA28E7EC5A0 /* Debug */,
+				236E337541A3D10D35D9F42B183D86F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

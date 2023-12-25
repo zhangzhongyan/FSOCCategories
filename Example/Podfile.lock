@@ -1,13 +1,15 @@
 PODS:
-  - FSOCCategories (1.0.3):
-    - "FSOCCategories/UIButton+FSHitEdgeInsets (= 1.0.3)"
-  - "FSOCCategories/UIButton+FSHitEdgeInsets (1.0.3)"
-  - "FSOCCategories/UIViewController+FSDocumentInteractionController (1.0.3)"
-  - "FSOCCategories/UIViewController+FSDocumentPickerViewController (1.0.3)"
-  - "FSOCCategories/UIViewController+FSQuickLookPreview (1.0.3)"
+  - FSOCCategories (1.0.4):
+    - "FSOCCategories/UIButton+FSHitEdgeInsets (= 1.0.4)"
+  - "FSOCCategories/NSString+FSSize (1.0.4)"
+  - "FSOCCategories/UIButton+FSHitEdgeInsets (1.0.4)"
+  - "FSOCCategories/UIViewController+FSDocumentInteractionController (1.0.4)"
+  - "FSOCCategories/UIViewController+FSDocumentPickerViewController (1.0.4)"
+  - "FSOCCategories/UIViewController+FSQuickLookPreview (1.0.4)"
 
 DEPENDENCIES:
   - FSOCCategories (from `../`)
+  - "FSOCCategories/NSString+FSSize (from `../`)"
   - "FSOCCategories/UIViewController+FSDocumentInteractionController (from `../`)"
   - "FSOCCategories/UIViewController+FSDocumentPickerViewController (from `../`)"
   - "FSOCCategories/UIViewController+FSQuickLookPreview (from `../`)"
@@ -17,8 +19,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FSOCCategories: 429d6ed9d31ee919bf388b70f27256026a2e4f31
+  FSOCCategories: d900cba18311dc2844accb4927699d9979da8172
 
-PODFILE CHECKSUM: 40238713d43b1a7dafc9f1d41feb0333746736e1
+PODFILE CHECKSUM: ee5f929c8a1dbbefe287c4501b21be048a9ca12e
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.12.1

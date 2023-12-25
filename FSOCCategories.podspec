@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FSOCCategories'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'Object-c分类扩展组件'
 
 # This description is used to generate tags and improve search results.
@@ -53,5 +53,9 @@ Pod::Spec.new do |s|
     ss.source_files = 'FSOCCategories/Classes/UIViewController+FSQuickLookPreview/*{h,m}'
   end
   
+  # NSString+FSSize
+  s.subspec 'NSString+FSSize' do |ss|
+    ss.source_files = 'FSOCCategories/Classes/NSString+FSSize/*{h,m}'
+  end
   
 end
